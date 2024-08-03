@@ -1,0 +1,257 @@
+body, .cover, .one, .two, .three, .four, .five, .six {
+    margin: 0px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+.cover {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    background-image: url(drew-coffman-1872.jpg);
+}
+
+.navegation {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navegation img {
+    width: 180px;
+    height: 100%;
+    margin-left: 80px;
+}
+.nav-content {
+    width: 50%;
+    float: right;
+    margin-top: 25px;
+    font-size: larger;
+    text-align: right;
+    cursor: pointer;
+}
+.nav-content a
+{
+    color: black;
+    padding-right: 30px;
+    text-decoration: none;
+}
+.nav-content a:hover
+{
+    color: darkgoldenrod;
+}
+.home-content {
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.home-content button {
+    padding: 20px 40px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.home-content .btn-two {
+    background-color: transparent;
+}
+.home-content .btn-two:hover {
+    background-color: burlywood;
+}
+.home-content .btn-one {
+    background-color: burlywood;
+}
+.home-content .btn-one:hover {
+    background-color: transparent;
+}
+
+
+.one {
+    background-color: transparent;
+    margin: auto;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.img-stavrica {
+    width: 45%
+}
+
+.we-are {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 100px 50px;
+}
+
+.we-cont img {
+    width: 40px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.two {
+
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.our-location {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 70px 0px;
+    margin-right: 100px;
+}
+
+.img-full {
+    width: 45%;
+}
+
+.three {
+    background-color: transparent;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+.Our-Baking {
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.bak-img {
+    width: 100%;
+}
+
+.types {
+    display: inline-block;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.four {
+    background-color: whitesmoke;
+    padding: 50px 60px 60px 50px;
+}
+
+.contact {
+    width: 45%;
+    float: left;
+}
+
+.contact img {
+    width: 40px;
+    background-color: darkgrey;
+    vertical-align: middle;
+}
+.contact .contact-icon img
+{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contact .contact-icon img:hover
+{
+    background-color: cornflowerblue;
+}
+.map {
+    /* padding-top: 30px; */
+    width: 45%;
+    float: right;
+}
+
+.five {
+    background-color: #403d38;
+    padding: 50px 0px 50px 50px;
+    color: lightgray;
+    line-height: 30px;
+}
+
+.five h3 {
+    color: #fff;
+}
+
+.arrow {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.about {
+    width: 22%;
+    float: left;
+    margin-right: 33px;
+}
+
+.why {
+    width: 22%;
+    float: left;
+    margin-right: 33px;
+}
+
+.hours {
+    width: 22%;
+    float: left;
+    margin-right: 33px;
+}
+
+.cont-details {
+    width: 22%;
+    float: left;
+}
+
+.six {
+    background-color: #353330;
+    position: center;
+}
+
+.footer-photo {
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.social-icon img {
+    width: 50px;
+    margin-right: 8px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.social-icon img:hover {
+   background-color: rgb(235, 180, 235);
+}
+
+.social-icon {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.copy-right {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: lightgray;
+    ;
+}
